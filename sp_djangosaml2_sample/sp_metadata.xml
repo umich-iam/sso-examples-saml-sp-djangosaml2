@@ -1,0 +1,104 @@
+<ns0:EntityDescriptor entityID="http://sp-djangosaml2-sample.dsc.umich.edu:8000/saml2/metadata/" xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns1="urn:oasis:names:tc:SAML:metadata:algsupport" xmln
+s:ns2="http://www.w3.org/2000/09/xmldsig#">
+  <ns0:Extensions>
+    <ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#md5"/>
+    <ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#ripemd160"/>
+    <ns1:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+    <ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha224"/>
+    <ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+    <ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha384"/>
+    <ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+    <ns1:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1"/>
+    <ns1:SigningMethod Algorithm="http://www.w3.org/2009/xmldsig11#dsa-sha256"/>
+    <ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-md5"/>
+    <ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-ripemd160"/>
+    <ns1:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+    <ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha224"/>
+    <ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+    <ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha384"/>
+    <ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+  </ns0:Extensions>
+  <ns0:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <ns0:KeyDescriptor use="signing">
+      <ns2:KeyInfo>
+        <ns2:X509Data>
+          <ns2:X509Certificate>MIIEPTCCAyWgAwIBAgIJAOAeeZTR/juHMA0GCSqGSIb3DQEBCwUAMIG0MQswCQYD
+VQQGEwJVUzERMA8GA1UECAwITWljaGlnYW4xEjAQBgNVBAcMCUFubiBBcmJvcjEf
+MB0GA1UECgwWVW5pdmVyc2l0eSBvZiBNaWNoaWdhbjEMMAoGA1UECwwDSVRTMSww
+KgYDVQQDDCNzcC1kamFuZ29zYW1sMi1zYW1wbGUuZHNjLnVtaWNoLmVkdTEhMB8G
+CSqGSIb3DQEJARYScHN0ZWZmZXNAdW1pY2guZWR1MB4XDTE4MDkxOTA0MTk1MVoX
+DTI4MDkxODA0MTk1MVowgbQxCzAJBgNVBAYTAlVTMREwDwYDVQQIDAhNaWNoaWdh
+bjESMBAGA1UEBwwJQW5uIEFyYm9yMR8wHQYDVQQKDBZVbml2ZXJzaXR5IG9mIE1p
+Y2hpZ2FuMQwwCgYDVQQLDANJVFMxLDAqBgNVBAMMI3NwLWRqYW5nb3NhbWwyLXNh
+bXBsZS5kc2MudW1pY2guZWR1MSEwHwYJKoZIhvcNAQkBFhJwc3RlZmZlc0B1bWlj
+aC5lZHUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDdJ+Gfi/JO6yY4
+jdZmFwQv7Ih87QVfO1B/I7DruP5X0WPyKvDy4h5H1ymtQgn5hMuMSpm/rTHJw7P9
+zQ5KmoqOaHxijw4FFe8hzB5Dl7wVwQshQ3hTWM7T/FjUtOPUTsQIoXZZ0kEQ+cIS
+e8G11U1vqJ/PfzaJSU+AXO5s2AITRY0WIqkpgtaFeQetE18oegsYUPwxNxfVitFA
+0X1LtyUTo0O96J3SOfQFdfFSFJKy032qD+jV4oecrzVhxhI7prsXC3BvO5dOeUgJ
+DjS31g9C6vIEjIXTq9MRfBpnIQhHTWSEiQwqwY5a4rlXR6kd2ZgABzbxFQ2e1SUF
+Yo66pzOnAgMBAAGjUDBOMB0GA1UdDgQWBBS51NumQIp4WOYgu5GzYbg0VdUmPjAf
+BgNVHSMEGDAWgBS51NumQIp4WOYgu5GzYbg0VdUmPjAMBgNVHRMEBTADAQH/MA0G
+CSqGSIb3DQEBCwUAA4IBAQB1pMYks5FmUa0hUtl5x1UVzuLR/izAMpRm3cwg3aKK
+U095hx/3ONNqTvB94uXmEAsJY+ZRvQw3DrA0H18mUNHdWU5tPavWtJGzc+pLWaH+
+etIJr83SnOu5cm12ilOx3ow2Xt+t3Td2hDQ/io1FBZb4KUxG0NCLjSukDRz1bf4I
+ql3GZSjLVQeQ7SgTKV11G3zxDLbPww2PV5WvkgdBz2AH8enFHWBT0CXyljrCTwyY
+YXH58DJNXQI60G6eQoGOmXN3wYG5oKIcZcvzlqnDFM5j7rAoH+Z0/kwV+Nv4spg8
+YMKba2bDC8TPu4FnWmLrtS16cjjefc1DIComrkEfiXYk
+</ns2:X509Certificate>
+        </ns2:X509Data>
+      </ns2:KeyInfo>
+    </ns0:KeyDescriptor>
+    <ns0:KeyDescriptor use="encryption">
+      <ns2:KeyInfo>
+        <ns2:X509Data>
+          <ns2:X509Certificate>MIIEPTCCAyWgAwIBAgIJAOAeeZTR/juHMA0GCSqGSIb3DQEBCwUAMIG0MQswCQYD
+VQQGEwJVUzERMA8GA1UECAwITWljaGlnYW4xEjAQBgNVBAcMCUFubiBBcmJvcjEf
+MB0GA1UECgwWVW5pdmVyc2l0eSBvZiBNaWNoaWdhbjEMMAoGA1UECwwDSVRTMSww
+KgYDVQQDDCNzcC1kamFuZ29zYW1sMi1zYW1wbGUuZHNjLnVtaWNoLmVkdTEhMB8G
+CSqGSIb3DQEJARYScHN0ZWZmZXNAdW1pY2guZWR1MB4XDTE4MDkxOTA0MTk1MVoX
+DTI4MDkxODA0MTk1MVowgbQxCzAJBgNVBAYTAlVTMREwDwYDVQQIDAhNaWNoaWdh
+bjESMBAGA1UEBwwJQW5uIEFyYm9yMR8wHQYDVQQKDBZVbml2ZXJzaXR5IG9mIE1p
+Y2hpZ2FuMQwwCgYDVQQLDANJVFMxLDAqBgNVBAMMI3NwLWRqYW5nb3NhbWwyLXNh
+bXBsZS5kc2MudW1pY2guZWR1MSEwHwYJKoZIhvcNAQkBFhJwc3RlZmZlc0B1bWlj
+aC5lZHUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDdJ+Gfi/JO6yY4
+jdZmFwQv7Ih87QVfO1B/I7DruP5X0WPyKvDy4h5H1ymtQgn5hMuMSpm/rTHJw7P9
+zQ5KmoqOaHxijw4FFe8hzB5Dl7wVwQshQ3hTWM7T/FjUtOPUTsQIoXZZ0kEQ+cIS
+e8G11U1vqJ/PfzaJSU+AXO5s2AITRY0WIqkpgtaFeQetE18oegsYUPwxNxfVitFA
+0X1LtyUTo0O96J3SOfQFdfFSFJKy032qD+jV4oecrzVhxhI7prsXC3BvO5dOeUgJ
+DjS31g9C6vIEjIXTq9MRfBpnIQhHTWSEiQwqwY5a4rlXR6kd2ZgABzbxFQ2e1SUF
+Yo66pzOnAgMBAAGjUDBOMB0GA1UdDgQWBBS51NumQIp4WOYgu5GzYbg0VdUmPjAf
+BgNVHSMEGDAWgBS51NumQIp4WOYgu5GzYbg0VdUmPjAMBgNVHRMEBTADAQH/MA0G
+CSqGSIb3DQEBCwUAA4IBAQB1pMYks5FmUa0hUtl5x1UVzuLR/izAMpRm3cwg3aKK
+U095hx/3ONNqTvB94uXmEAsJY+ZRvQw3DrA0H18mUNHdWU5tPavWtJGzc+pLWaH+
+etIJr83SnOu5cm12ilOx3ow2Xt+t3Td2hDQ/io1FBZb4KUxG0NCLjSukDRz1bf4I
+ql3GZSjLVQeQ7SgTKV11G3zxDLbPww2PV5WvkgdBz2AH8enFHWBT0CXyljrCTwyY
+YXH58DJNXQI60G6eQoGOmXN3wYG5oKIcZcvzlqnDFM5j7rAoH+Z0/kwV+Nv4spg8
+YMKba2bDC8TPu4FnWmLrtS16cjjefc1DIComrkEfiXYk
+</ns2:X509Certificate>
+        </ns2:X509Data>
+      </ns2:KeyInfo>
+    </ns0:KeyDescriptor>
+    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://localhost:8000/saml2/ls/"/>
+    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:8000/saml2/ls/post"/>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
+    <ns0:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:8000/saml2/acs/" index="1"/>
+    <ns0:AttributeConsumingService index="1">
+      <ns0:ServiceName xml:lang="en"/>
+      <ns0:RequestedAttribute Name="uid" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
+      <ns0:RequestedAttribute Name="eduPersonAffiliation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false"/>
+    </ns0:AttributeConsumingService>
+  </ns0:SPSSODescriptor>
+  <ns0:ContactPerson contactType="technical">
+    <ns0:Company>University of Michigan</ns0:Company>
+    <ns0:GivenName>Patrick</ns0:GivenName>
+    <ns0:SurName>Steffes</ns0:SurName>
+    <ns0:EmailAddress>psteffes@umich.edu</ns0:EmailAddress>
+  </ns0:ContactPerson>
+  <ns0:ContactPerson contactType="administrative">
+    <ns0:Company>University of Michigan</ns0:Company>
+    <ns0:GivenName>Some</ns0:GivenName>
+    <ns0:SurName>Gear</ns0:SurName>
+    <ns0:EmailAddress>shibboleth@umich.edu</ns0:EmailAddress>
+  </ns0:ContactPerson>
+</ns0:EntityDescriptor>
