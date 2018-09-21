@@ -84,7 +84,7 @@ YMKba2bDC8TPu4FnWmLrtS16cjjefc1DIComrkEfiXYk
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
     <ns0:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:8000/saml2/acs/" index="1"/>
     <ns0:AttributeConsumingService index="1">
-      <ns0:ServiceName xml:lang="en"/>
+      <ns0:ServiceName xml:lang="en">sp_djangosaml2_sample</ns0:ServiceName>
       <ns0:RequestedAttribute Name="uid" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
       <ns0:RequestedAttribute Name="eduPersonAffiliation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="false"/>
     </ns0:AttributeConsumingService>
