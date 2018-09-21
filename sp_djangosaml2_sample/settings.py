@@ -149,7 +149,7 @@ SAML_CONFIG = {
   # this block states what services we provide
   'service': {
       # we are just a lonely SP
-      'sp' : {
+      'sp': {
           'name': 'Federated Django sample SP',
           'name_id_format': saml2.saml.NAMEID_FORMAT_TRANSIENT,
           'authn_requests_signed': 'true',
